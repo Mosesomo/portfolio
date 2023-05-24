@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folio.</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!--icons-->
+    <script src="https://kit.fontawesome.com/d1e0a0909b.js" crossorigin="anonymous"></script>
+
+    <!--css styling-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="div">
+    <!--header section-->
+
+    <header>
+        <div class="logo">
+            <h2>code<span class="logo-span">r</span><span id="dot">.</span></h2>
+        </div>
+        <div class="navigation" id="navigation">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-bars" id="open-btn" onclick="openmenu()"></i>
+                <i class="fa-solid fa-times" id="close-btn" onclick="closemenu()"></i>
+        </div>
+    </header>
+
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slido">
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
+            </div>
+            <h1>Moses Omo<span class="name">ndi</span></h1>
+            <h3>Frontend<span class="span">Developer.</span></h3>
+            <p>I develope and design webs using React js framework,<br>
+            Tailwind css that makes the web so much responsive.</p>
+            <div class="btn">
+                <button type="button" class="cv">Download CV</button>
+                <button type="button" class="hire">Hire me</button>
+            </div>
+        </div>
+    </section>
+
+    <!--about me-->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="image-1.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About  <span class="me">me</span></h2>
+            <h4>Frontend Developer</h4>
+            <p>Hi, I am moses omondi a frontend developer with experience in building responsive <br>
+            and customising websites specifically using React js,  <br>
+            bootstrap frameworks and  tailwind css.<br>
+            Am experienced in Web development with Microsoft technologies  using <br>
+            html, tailwind css,,javascript, react js framework <br>
+            and bootstrapframeworks.  I have designed and developed Web user controls,<br>
+             masterpages and validation controls using the frameworks and skills have mentioned above.</p>
+             <button type="button" class="more">More info.</button>
+        </div>
+    </section>
+
+    <!--services-->
+    <section class="services" id="services">
+        <div class="main-text">
+            <p>what I am Expert In</p>
+            <h2><span class="my">My</span>Services</h2>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="s-icon">
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                </div>
+                <h3>Web Design</h3>
+                <p>I do develope and<br>
+                 design responsive websites</p>
+                <button type="bu
+                " class="btn-1">Read more
+                </button>
+            </div>
+            <div class="box">
+                <div class="s-icon">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>I do develope web that can last for long <br>
+                and which can hold<br>
+                many users</p>
+                <button type="bu
+                " class="btn-1">Read more
+                </button>
+            </div>
+            <div class="box">
+                <div class="s-icon">
+                    <i class="fa fa-creative-commons" aria-hidden="true"></i>
+                </div>
+                <h3>Creative Design</h3>
+                <p>I do develope and<br>
+                 design responsive websites</p>
+                <button type="bu
+                " class="btn-1">Read more
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio-->
+    <section class="portf" id="portfolio">
+        <div class="portf-text">
+            <p>Portfolio</p>
+            <h2><span class="latest">Latest</span> Project</h2>
+        </div>
+        <div class="portf-content">
+            <div class="row">
+                <img src="image1.jpg" alt="web dsgn">
+                <div class="layer">
+                    <h5>Web design</h5>
+                    <p>check out 10 best design updates for the top web design.</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="image2.jpg" alt="web dsgn">
+                <div class="layer">
+                    <h5>Web design</h5>
+                    <p>check out 10 best design updates for the top web design.</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="image3.jpg" alt="web dsgn">
+                <div class="layer">
+                    <h5>Web design</h5>
+                    <p>check out 10 best design updates for the top web design.</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="image4.jpg" alt="web dsgn">
+                <div class="layer">
+                    <h5>Mobile design</h5>
+                    <p>check out 10 best design updates for the top web design.</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="image5.jpg" alt="web dsgn">
+                <div class="layer">
+                    <h5>Mobile design</h5>
+                    <p>check out 10 best design updates for the top web design.</p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="image6.jpg" alt="web dsgn">
+                <div class="layer">
+                    <h5>Mobile design</h5>
+                    <p>check out 10 best design updates for the top web design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact section-->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact<span class="contact-me">Me!</span></h2>
+            <h4>If you have any project in your mind.</h4>
+            <p>I 'm a Frontend developer developing a brave interface web for companies.</p>
+            <div class="list">
+                <li><a href="#">+254758171116/+254777886326</a></li>
+                <li><a href="#">moseswamboga4@gmail.com</a></li>
+            </div>
+            <div class="contact-icon">
+                <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="name" placeholder="Enter name" required>
+                <input type="email" placeholder="example@gmail.com" required>
+                <input type="digit" placeholder="Mobile number" required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="How can I help"></textarea>
+                <input type="submit" value="Send Message" class="submit" required>
+            </form>
+        </div>
+    </section>
+    <!--footer section-->
+    <footer class="end">
+        <div class="last">
+            <p>Copyright &copy; 2018 - <a href="https://github.com/moseswamboga" target="_blank">Moseswamboga</a></p>
+        </div>
+        <div class="top">
+            <a href="#home"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
