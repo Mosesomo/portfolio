@@ -24,8 +24,9 @@
             <h2>code<span class="logo-span">r</span><span id="dot">.</span></h2>
         </div>
         <div class="navigation" id="navigation">
+            <i class="fa-solid fa-times" id="close-btn" onclick="closemenu()"></i>
             <ul>
-                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#home" class="active" >Home</a></li>
                 <li><a href="#about">About me</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
@@ -34,10 +35,8 @@
         </div>
         <div class="icon">
             <i class="fa-solid fa-bars" id="open-btn" onclick="openmenu()"></i>
-                <i class="fa-solid fa-times" id="close-btn" onclick="closemenu()"></i>
         </div>
     </header>
-
     <!--home section-->
     <section class="home" id="home">
         <div class="overlay"></div>
@@ -47,9 +46,8 @@
                 <span class="two">I'm</span>
             </div>
             <h1>Moses Omo<span class="name">ndi</span></h1>
-            <h3>And am a <span class="multiple-text"></h3>
-            <p>I develope and design websites using Html, css, bootsrap, javascript, React js framework,<br>
-            Tailwind css that makes the web so much responsive.</p>
+            <h3>And I am a <span class="multiple-text"></h3>
+            <p>With my expertise in HTML, CSS, Bootstrap, JavaScript, and React.js framework, I can help you develop and design websites that are visually stunning and highly functional. Additionally, I make use of Tailwind CSS to ensure that your website is highly responsive and optimized for all devices. Trust me to create a website that will perfectly represent your brand and leave a lasting impression on your visitors.</p>
             <div class="btn">
                 <button type="button" class="cv">Download CV</button>
                 <button type="button" class="hire">Hire me</button>
@@ -59,21 +57,21 @@
 
     <!--about me-->
     <section class="about" id="about">
-        <div class="about-image">
-            <img src="image-1.jpg" alt="">
-        </div>
-        <div class="about-text">
-            <h2>About  <span class="me">me</span></h2>
-            <h4>Frontend Developer</h4>
-            <p>Hi, I am moses omondi a frontend developer with experience in building responsive <br>
-            and customising websites specifically using React js,  <br>
-            bootstrap frameworks and  tailwind css.<br>
-            Am experienced in Web development with Microsoft technologies  using <br>
-            html, tailwind css,,javascript, react js framework <br>
-            and bootstrapframeworks.  I have designed and developed Web user controls,<br>
-             masterpages and validation controls using the frameworks and skills have mentioned above.</p>
-             <button type="button" class="more">More info.</button>
-        </div>
+        <h2>About  <span class="me">me</span></h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="/img/image-1.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h4>Web developer</h4>
+                <p>Hi, my name is Moses Omondi and I am a web developer. I have extensive experience in building and customizing websites using various frameworks and technologies such as React JS, Bootstrap, and Tailwind CSS. 
+
+                    I have also worked with Microsoft technologies including HTML, JavaScript, and React JS framework to develop web user controls, master pages, and validation controls. Additionally, I am proficient in Flask Python and have used it to develop various applications. 
+                    
+                    Currently, I am enrolled in a full-stack software engineering course at Alx and I am looking forward to specializing in backend engineering.</p>
+                <button type="button" class="more">More info.</button>
+            </div>
+        </div>  
     </section>
 
     <!--services-->
@@ -127,27 +125,31 @@
         </div>
         <div class="portf-content">
             <div class="row">
-                <a href="https://dulcet-cranachan-2aeddc.netlify.app/"><img src="clone (2).png"></a>
+                <a href="https://estate-finder.onrender.com/"><img src="/img/reales.jpg"></a>
                 <div class="layer"></div>
             </div>
             <div class="row">
-                <a href="https://silver-strudel-6af9a8.netlify.app/"><img src="beach (2).png" alt=""></a>
+                <a href="https://dulcet-cranachan-2aeddc.netlify.app/"><img src="/img/clone (2).png"></a>
                 <div class="layer"></div>
             </div>
             <div class="row">
-                <a href="https://jolly-donut-05de49.netlify.app/"><img src="food (3).png" alt="web dsgn"></a>
+                <a href="https://silver-strudel-6af9a8.netlify.app/"><img src="/img/beach (2).png" alt=""></a>
                 <div class="layer"></div>
             </div>
             <div class="row">
-                <a href="https://fluffy-sawine-22a846.netlify.app/"><img src="bank (2).png" alt="web dsgn"></a>
+                <a href="https://jolly-donut-05de49.netlify.app/"><img src="/img/food (3).png" alt="web dsgn"></a>
                 <div class="layer"></div>
             </div>
             <div class="row">
-                <a href="https://splendorous-speculoos-15f593.netlify.app/"><img src="dashboard (2).png" alt="web dsgn"></a>
+                <a href="https://fluffy-sawine-22a846.netlify.app/"><img src="/img/bank (2).png" alt="web dsgn"></a>
                 <div class="layer"></div>
             </div>
             <div class="row">
-                <a href="https://fabulous-crumble-1d445b.netlify.app/"><img src="res (2).png" alt="web dsgn"></a>
+                <a href="https://splendorous-speculoos-15f593.netlify.app/"><img src="/img/dashboard (2).png" alt="web dsgn"></a>
+                <div class="layer"></div>
+            </div>
+            <div class="row">
+                <a href="https://fabulous-crumble-1d445b.netlify.app/"><img src="/img/res (2).png" alt="web dsgn"></a>
                 <div class="layer"></div>
             </div>
         </div>
@@ -160,8 +162,14 @@
             <h4>If you have any project in your mind.</h4>
             <p>I 'm a Frontend developer developing a brave interface web for companies.</p>
             <div class="list">
-                <li><a href="#">+254758171116/+254777886326</a></li>
-                <li><a href="#">moseswamboga4@gmail.com</a></li>
+                <div class="info">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <li><a href="#">+254758171116</a></li>
+                </div>
+                <div class="info">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <li><a href="#">moseswamboga4@gmail.com</a></li>
+                </div>
             </div>
             <div class="contact-icon">
                 <a href="https://github.com/Mosesomo"><i class="fa fa-github" aria-hidden="true"></i></a>
@@ -180,6 +188,25 @@
             </form>
         </div>
     </section>
+
+    <!-- chatbot section-->
+    <!--<div class="chat-bot-button">
+        <button class="chat" id="chat-toggle" onclick="openChat()"><i class="fa-brands fa-rocketchat"></i></button>
+    </div>
+    <div class="chat-box" id="chat-box">
+        <div class="chat-box-header">
+            <i class="fa-solid fa-times" id="close-chat-btn" onclick="closeChat()"></i>
+        </div>
+        <div class="chat-box-body">
+          <div class="response">
+            <p>Welcome Our AI health care assistant, how can I help you today?</p>
+          </div>
+        </div>
+        <div class="chat-box-footer">
+          <input type="text" placeholder="Ask a question..." />
+          <button>Send</button>
+        </div>
+      </div>-->
     <!--footer section-->
     <footer class="end">
         <div class="last">
@@ -189,7 +216,11 @@
             <a href="#home"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@gradio/client@0.10.1/dist/index.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js" integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
